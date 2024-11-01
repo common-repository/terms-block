@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"name": "terms-block/terms",
+	"title": "Terms",
+	"apiVersion": 3,
+	"icon": "tag",
+	"description": "Displays a list of all terms in the selected taxonomy.",
+	"textdomain": "terms-block",
+	"attributes": {
+		"className": {
+			"type": "string",
+			"default": ""
+		},
+		"taxonomy": {
+			"type": "string",
+			"default": "category"
+		}
+	},
+	"category": "widgets",
+	"editorScript": "file:./index.js"
+}
